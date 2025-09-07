@@ -11,3 +11,5 @@ npm run test
 This project is a sample project for playwright wth typescript. it include - page objects for elements, constructors and CI/CD. 
 
 Default URL is playwright.dev
+
+This project also include ES lint for syntax check
