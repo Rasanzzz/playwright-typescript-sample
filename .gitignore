@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# Playwright reports & results
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+
+
