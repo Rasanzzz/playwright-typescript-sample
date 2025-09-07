@@ -12,7 +12,7 @@ test.describe('Playwright.dev Homepage Interactive Suite', () => {
   test('02 - Get Started link should navigate to Docs', async ({ page }) => {
     const home = new HomePage(page);
     await home.goto();
-    await home.clickGetStarted();
+    await home.clickGetStarted(); 
     await home.assertDocsUrl();
   });
 
@@ -76,4 +76,5 @@ test.describe('Playwright.dev Homepage Interactive Suite', () => {
     await home.goBack();
     await home.assertTitle();
   });
+  
 });
