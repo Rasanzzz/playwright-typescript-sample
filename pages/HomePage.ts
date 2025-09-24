@@ -29,7 +29,7 @@ export class HomePage {
     this.mobileMenuButton = page.getByRole('button', { name: 'Toggle navigation bar' });
   }
 
-  async goto() { await this.page.goto('https://playwright.dev/'); }
+  async navigateToURL() { await this.page.goto('https://playwright.dev/'); }
   async assertTitle() { await expect(this.page).toHaveTitle(/Playwright/); }
   async clickGetStarted() { await this.getStartedLink.click(); }
   async clickDocs() { await this.docsLink.click(); }
